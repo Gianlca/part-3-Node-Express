@@ -23,7 +23,9 @@
   "homepage": "https://github.com/Gianlca/part-3-Node-Express#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "mongoose": "^6.0.8",
     "morgan": "^1.10.0",
     "rimraf": "^3.0.2"
   },
