@@ -41,9 +41,6 @@ router.delete("/:id", (request, response, next) => {
 router.post("/", (request, response, next) => {
   const body = request.body;
 
-  // if (insertedName)
-  //   return response.status(400).json({ error: "name must be unique" });
-
   const person = new Person({
     name: body.name,
     number: body.number,
